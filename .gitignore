@@ -1,0 +1,44 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+naive/
+venv/
+.venv/
+env/
+
+# Python generated files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated RAG data
+data/chroma_db/
+data/embedded/
+data/extracted/
+data/documents/
+
+# Model and dataset artifacts
+*.npz
+*.parquet
+*.pt
+*.pth
+*.onnx
+
+# Logs and local databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
